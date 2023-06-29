@@ -1,0 +1,216 @@
+body{
+    background-color:white;
+    display:inline;
+    margin: 0;
+    font-family: 'Patrick Hand', cursive;
+    
+}
+h1{
+    font-family: 'Patrick Hand', cursive;
+    color: #66BFBF;
+    margin: 0px;
+    width: 45%; 
+    position: absolute;
+    left: 450px;
+    top: 120px;  
+}
+.s{
+    
+    display: inline-block;
+    
+    position: absolute;
+    top: 291px;
+    left: 417px;
+}
+.intro  {
+    width: 600px;
+    margin: 0;
+    width: 523px;
+    margin: 0;
+    position: absolute;
+    top: 362px;
+    left: 190px;
+}
+
+.top{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    display: inline;
+    position: absolute;
+    left: 600px;
+    top: 140px;
+}
+.bottom-cloud{
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    
+}
+.top-cloud{
+    position: absolute;
+    top: 51px;
+    left: 1000px;
+}
+.moutain-image{
+    height: 646px;
+    position: absolute;
+    left: 228px;
+    top: 152px;
+
+}
+.top-container{
+    background-color:rgb(175, 229, 250);
+    height: 600px;
+    width: 1000;
+    position: relative;
+    padding: 100px;
+    
+    
+}
+.middle-container{
+    background-color: azure;
+    position: relative;
+    padding: 50px;
+    height: 1795px;
+}
+.profile{
+    height: 400px;
+    width: 800px;
+    position: absolute;
+    left: 300px;
+    
+}
+.profilep{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 300px;
+
+}
+.skillp{
+    position: absolute;
+    top: 81px;
+    left: 231px;
+}
+.skillheading{
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 498px;
+    left: 314px;
+}
+.skills{
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    top: 452px;
+    left: 299px;
+}
+.skillhead{
+    display: inline;
+    position: absolute;
+    left: 380px;
+}
+.skillpara{
+    display: inline-block;
+    position: absolute;
+    top: 517px;
+    left: 23px;
+}
+.skill2row{
+    height: 600px;
+    width: 800px;
+    /* background: black; */
+    position: absolute;
+    top: 1055px;
+    left: 300px;
+    
+}
+.skilltwo{
+
+    position: absolute;
+    top: 81px;
+    left: 262px;
+}
+.headthree{
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 458px;
+    left: 400px;
+}
+.ghk{
+    display: inline-block;
+    position: absolute;
+    top: 483px;
+    left: 182px;
+}
+.contact-me{
+    height: 158px;
+    width: 800px;
+    position: absolute;
+    top: 1656px;
+    left: 300px;
+}
+.contact{
+    display: inline-block;
+    position: absolute;
+    left: 356px;
+}
+.contact1{
+    display: inline-block;
+    position: absolute;
+    left: 307px;
+    top: 38px;
+}
+.contact2{
+    display: inline-block;
+    position: absolute;
+    left: 351px;
+    top: 75px;
+}
+.btn{
+    display: inline-block;
+    position: absolute;
+    left: 379px;
+    top: 121px;
+}
+.bottom-container{
+    background-color: gray;
+    position: relative;
+    padding: 50px;
+    height: 50px;
+}
+.footer-link1{
+    display: inline-block;
+    position: absolute;
+    left: 789px;
+    top: 37px;
+}
+.footer-link2{
+    display: inline-block;
+    position: absolute;
+    left: 680px;
+    top: 37px;
+}
+.footer-link3{
+    display: inline-block;
+    position: absolute;
+    left: 574px;
+    top: 37px;
+}
+.foot{
+    display: inline-block;
+    position: absolute;
+    left: 633px;
+    top: 57px;
+}
+/* /* When using the shorthand property the order of the property values is:
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+} */
+/* background-color
+background-image
+background-repeat
+background-attachment
+background-position */ 

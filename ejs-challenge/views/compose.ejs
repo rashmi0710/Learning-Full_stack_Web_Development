@@ -1,0 +1,20 @@
+<%- include('partials/header.ejs'); %>
+<h1>Compose</h1>
+<form action="/compose" method="post">
+    <!-- <input type="text" name="compose">
+    <button type="submit" name="button">Publish</button> -->
+
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Title</label>
+        <input type="text" class="form-control" name="postTitle">
+    </div>
+    <div class="form-floating">
+        <label for="exampleInputEmail1" class="form-label">post</label>
+        <textarea class="form-control" placeholder="Add your text here" id="floatingTextarea2" style="height: 100px" name="postBody"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Publish</button>
+
+</form>
+
+<%- include('partials/footer.ejs'); %>

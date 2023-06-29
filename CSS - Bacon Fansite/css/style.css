@@ -1,0 +1,42 @@
+#Top_heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    text-align: center;
+
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    /* color: darkslategrey; */
+    /* text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit; */
+}
+#peeche{
+    background-image:url(https://png.pngtree.com/background/20210716/original/pngtree-cute-cartoon-emoji-sushi-background-picture-image_1336862.jpg);
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: floralwhite;
+    
+}
+/* id = we should apply the id when we have to apply style on the signle element */
+/* class = should be applied when we have to make or style a group of element  */
+/* pesudo clss */
+.imag{
+    
+    background-color: darkolivegreen;
+    height: 250px;
+    border-radius: 100%;
+    
+}
+.imag:hover{
+    background-color: #000;
+}
+
+.fries{
+    background-color: darkolivegreen;
+    height: 250px;
+    border-right: 100px ;
+    border-radius: 100%;
+}
+.fries:hover{
+    background-color: #000;
+}

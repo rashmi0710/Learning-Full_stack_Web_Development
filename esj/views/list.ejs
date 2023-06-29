@@ -1,0 +1,25 @@
+<%- include('header') %>
+    <div class="box" id="heading">
+        <h1><%= ListTile %></h1>
+    </div>
+    <div class="box">
+        <!-- <ul> -->
+            <!-- <li> NewListItem %></li> -->
+            <!-- now we had added the array in our to list it storing the new items in sigle point therefore we ha
+            to use for loop using scriptlet tag of ejs -->
+            <% for( var i = 0; i < NewListItems.length; i++ ) { %>
+            <div class="item">
+                <input type="checkbox">
+                <p><%= NewListItems[i] %></p>
+            </div>
+            <% } %>
+            
+        <!-- </ul> -->
+        <form class="item"action="/" method="post">
+            <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+            <button type ="submit", name="list" value="<%= ListTile %>"> + </button>
+        </form>
+
+        
+    </div>
+<%- include('footer.ejs') %>
